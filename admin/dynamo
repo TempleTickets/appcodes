@@ -1,0 +1,7 @@
+module.exports=function(server,dynamodb)
+{
+  server.get('/login',function(req,res){
+    //console.log(dynamodb);
+    res.end("dynamodb");
+  })
+}
